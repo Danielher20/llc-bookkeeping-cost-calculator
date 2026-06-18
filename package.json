@@ -1,0 +1,27 @@
+{
+  "name": "llc-bookkeeping-cost-calculator",
+  "version": "1.0.0",
+  "description": "Free calculator to estimate monthly bookkeeping costs for US LLCs.",
+  "homepage": "https://bookkeepingaldia.com/costo-bookkeeping-llc/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielher20/llc-bookkeeping-cost-calculator.git"
+  },
+  "keywords": [
+    "llc",
+    "bookkeeping",
+    "calculator",
+    "accounting",
+    "small-business",
+    "quickbooks"
+  ],
+  "author": "Bookkeeping al Día (https://bookkeepingaldia.com/)",
+  "license": "MIT",
+  "main": "script.js",
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "metodologia.md"
+  ]
+}
