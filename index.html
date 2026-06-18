@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de costo de bookkeeping para LLC | Bookkeeping al Día</title>
+  <meta name="description" content="Calculadora gratuita para estimar el costo mensual de bookkeeping de una LLC de EE. UU. según volumen de transacciones, cuentas y complejidad.">
+  <link rel="canonical" href="https://bookkeepingaldia.com/costo-bookkeeping-llc/">
+  <meta property="og:title" content="Calculadora de costo de bookkeeping para LLC">
+  <meta property="og:description" content="Estima el costo mensual de bookkeeping para tu LLC según volumen de transacciones, número de cuentas y complejidad.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bookkeepingaldia.com/costo-bookkeeping-llc/">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Calculadora de costo de bookkeeping para LLC",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Any",
+    "url": "https://bookkeepingaldia.com/costo-bookkeeping-llc/",
+    "description": "Herramienta educativa para estimar el costo mensual de bookkeeping de una LLC de EE. UU. según volumen de transacciones, número de cuentas y complejidad.",
+    "provider": {
+      "@type": "AccountingService",
+      "name": "Bookkeeping al Día",
+      "url": "https://bookkeepingaldia.com/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="https://bookkeepingaldia.com/">Bookkeeping al Día</a>
+      <a class="nav-link" href="https://bookkeepingaldia.com/contacto/">Solicitar cotización real</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Herramienta gratuita para dueños de LLC</p>
+        <h1>Calculadora de costo de bookkeeping para LLC</h1>
+        <p class="lead">Estima cuánto podría costar el bookkeeping mensual de tu LLC de EE. UU. según el volumen de transacciones, el número de cuentas que se concilian y la complejidad de tu operación.</p>
+      </div>
+      <div class="note">
+        Esta herramienta es educativa y entrega una estimación, no una cotización. El costo real puede variar según el volumen de transacciones, el número de cuentas, las conciliaciones, el atraso contable y la complejidad de la LLC. Confirma siempre con un profesional.
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="tool" aria-labelledby="tool-title">
+      <div class="panel">
+        <h2 id="tool-title">Datos de tu LLC</h2>
+
+        <label for="volume">Transacciones por mes (aprox.)</label>
+        <select id="volume">
+          <option value="0-30">0 a 30</option>
+          <option value="31-75">31 a 75</option>
+          <option value="76-150">76 a 150</option>
+          <option value="151-300">151 a 300</option>
+          <option value="301+">Más de 300</option>
+        </select>
+        <p class="hint">Cuenta movimientos en banco, tarjetas y plataformas de pago.</p>
+
+        <label for="accounts">Cuentas a conciliar (bancos + tarjetas)</label>
+        <input id="accounts" type="number" min="0" step="1" value="2" inputmode="numeric">
+        <p class="hint">Cada cuenta adicional implica más conciliaciones.</p>
+
+        <label for="frequency">Frecuencia del servicio</label>
+        <select id="frequency">
+          <option value="monthly">Mensual</option>
+          <option value="quarterly">Trimestral</option>
+        </select>
+
+        <label for="backlog">Meses de atraso contable</label>
+        <input id="backlog" type="number" min="0" step="1" value="0" inputmode="numeric">
+        <p class="hint">Meses sin conciliar que requerirían una puesta al día inicial.</p>
+
+        <label>Complejidad adicional</label>
+        <div class="checks">
+          <label class="check"><input type="checkbox" name="addon" value="payroll"> Nómina (payroll)</label>
+          <label class="check"><input type="checkbox" name="addon" value="multicurrency"> Operaciones en varias monedas</label>
+          <label class="check"><input type="checkbox" name="addon" value="inventory"> Control de inventario</label>
+          <label class="check"><input type="checkbox" name="addon" value="invoicing"> Facturación / cuentas por cobrar</label>
+        </div>
+
+        <div class="actions">
+          <button class="primary" type="button" id="calculate">Calcular</button>
+          <button class="secondary" type="button" id="copy">Copiar resultado</button>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Estimación</h2>
+        <div class="results" id="results" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="content">
+      <article>
+        <h2>Qué calcula esta herramienta</h2>
+        <p>La calculadora estima un rango de costo mensual de bookkeeping a partir de variables que normalmente influyen en el precio de este servicio para una LLC de EE. UU. No reemplaza una revisión profesional ni una cotización formal.</p>
+        <ul>
+          <li>Volumen de transacciones mensuales.</li>
+          <li>Número de cuentas bancarias y tarjetas a conciliar.</li>
+          <li>Frecuencia del servicio (mensual o trimestral).</li>
+          <li>Complejidad: nómina, varias monedas, inventario o facturación.</li>
+          <li>Atraso contable que requiera una puesta al día inicial.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Versión online</h2>
+        <p>Puedes usar la versión online de esta calculadora aquí:</p>
+        <ul>
+          <li><a href="https://bookkeepingaldia.com/costo-bookkeeping-llc/">bookkeepingaldia.com/costo-bookkeeping-llc</a></li>
+        </ul>
+        <p>Para conocer el costo real de tu caso, lo mejor es una revisión personalizada con un profesional contable.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Bookkeeping al Día. Información educativa para dueños de LLC. Esta página no sustituye asesoría fiscal, legal ni contable personalizada.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
