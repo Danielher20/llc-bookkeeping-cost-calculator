@@ -45,7 +45,7 @@ No requiere instalación. Tienes dos opciones:
 ## Descargar o clonar
 
 ```bash
-git clone https://github.com/<tu-usuario>/llc-bookkeeping-cost-calculator.git
+git clone https://github.com/Danielher20/llc-bookkeeping-cost-calculator.git
 cd llc-bookkeeping-cost-calculator
 ```
 
